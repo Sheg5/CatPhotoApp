@@ -1,0 +1,111 @@
+* {
+  box-sizing: border-box;
+}
+
+section {
+  padding-top: 5vh;
+}
+
+#navbar {
+  background-color: #1988f7;
+  position: fixed;
+  top: 0;
+  z-index: 9999;
+  justify-content: flex-end;
+}
+
+.menu-bar {
+  width: 100vw;
+  left: 0;
+  right: 0;
+  display: flex;
+  /*align-items: center;*/
+}
+
+.nav-link, .footer-link {
+  color: white;
+  background-color: transparent;
+  font-size: 18px;
+  display: inline-block;
+  padding: 14px 20px;
+}
+
+.nav-link:hover {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+  
+.welcome { 
+  text-align: center;
+  height: 100vh;
+  border: 3px solid red; 
+}
+
+.welcome img { 
+  width: 100%;
+}
+
+/*.welcome img:hover { 
+  filter: blur(4px);
+}*/
+
+#profile-img {
+  border-radius: 50%;
+  width: 50vw;
+  height: 50vh;
+  overflow: hidden;
+}
+  
+.about { 
+  height: 75vh;
+  border: 3px solid purple;
+}
+  
+.project {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+	gap: 3vmax;
+	grid-template-areas: "project-item-1 project-item-2 project-item-3" "project-item-4 project-item-5 project-item-6";
+  height: 100vh;
+  border: 3px solid yellow;
+}
+
+.project-tile {
+  border: 3px solid silver;
+  width: 30vw;
+}
+  
+.project-item-1 { 
+  grid-area: project-item-1; 
+}
+  
+.project-item-2 { 
+  grid-area: project-item-2;
+}
+  
+.project-item-3 { 
+  grid-area: project-item-3; 
+}
+  
+.project-item-4 { 
+  grid-area: project-item-4; 
+}
+  
+.project-item-5 { 
+  grid-area: project-item-5;
+}
+  
+.project-item-6 { 
+  grid-area: project-item-6; 
+}
+  
+.contact { 
+  height: 25vh;
+  border: 3px solid pink; 
+}
+
+#footer-bar {
+  background-color: #1988f7;
+  bottom: 0;
+  justify-content: space-evenly;
+}
