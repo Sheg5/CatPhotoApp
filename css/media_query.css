@@ -1,0 +1,71 @@
+/* MEDIA QUERY FOR MOBILE SMARTPHONES */
+
+@media only screen
+
+  and (min-width: 576px) {
+
+  /* CSS Rules Here */
+
+}
+
+@media only screen
+
+  and (max-width: 575px) {
+
+  /* CSS Rules Here */
+
+}
+
+/* MEDIA QUERY FOR TABLETS */
+
+@media only screen
+
+  and (min-width: 768px) {
+
+  /* CSS Rules Here */
+
+}
+
+@media only screen
+
+  and (max-width: 767px) {
+
+  /* CSS Rules Here */
+
+}
+
+/* MEDIA QUERY FOR LAPTOPS AND DESKTOP */
+
+@media only screen
+
+  and (min-width: 992px) {
+
+  /* CSS Rules Here */
+
+}
+
+@media only screen
+
+  and (max-width: 991px) {
+
+  /* CSS Rules Here */
+
+}
+
+/* MEDIA QUERY FOR LARGE SCREENS */
+
+@media only screen
+
+  and (min-width: 1200px) {
+
+  /* CSS Rules Here */
+
+}
+
+@media only screen
+
+  and (max-width: 1199px) {
+
+  /* CSS Rules Here */
+
+}
